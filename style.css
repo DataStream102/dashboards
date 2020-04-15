@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.text {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('images/background.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.text .btn {
+       /* Positioning and sizing */
+    display: inline-block;
+    width: 300px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+    /* Border styles */
+    border: 3px solid white;
+    border-radius: 20px;
+    
+    /* Background styles */
+    background-color: rgba(147, 112, 219, 0.8);
+}
+
+.text .btn2 {
+       /* Positioning and sizing */
+    display: inline-block;
+    width: 300px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+    /* Border styles */
+    border: 3px solid white;
+    border-radius: 20px;
+    
+    /* Background styles */
+    background-color: rgba(147, 112, 219, 0.8);
+}
+
